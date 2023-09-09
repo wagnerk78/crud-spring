@@ -23,10 +23,10 @@ public class CrudSpringApplication {
 
 			Course c = new Course();
 			c.setName("Angular");
-			c.setCategory("front-end");
+			c.setCategory("Front-end");
 			Course d = new Course();
 			d.setName("Java");
-			d.setCategory("back-end");
+			d.setCategory("Back-end");
 
 			courseRepository.save(c);
 			courseRepository.save(d);
