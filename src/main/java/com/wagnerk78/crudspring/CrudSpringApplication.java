@@ -27,9 +27,13 @@ public class CrudSpringApplication {
 			Course d = new Course();
 			d.setName("Java");
 			d.setCategory("Back-end");
+			Course e = new Course();
+			e.setName("PHP");
+			e.setCategory("Back-end");
 
 			courseRepository.save(c);
 			courseRepository.save(d);
+			courseRepository.save(e);
 		};
 	}
 }
